@@ -48,7 +48,7 @@ assert "Python" in driver.title
 Yes, this worked for me... But I think we can do better.
 
 
-<! --
+<!--
 # With thallium
 
 ```python
