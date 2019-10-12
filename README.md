@@ -37,8 +37,8 @@ For some other people [`pyderman`](https://github.com/shadowmoose/pyderman) work
 
 ```python
 from selenium import webdriver
-import pyderman as driver
-path = driver.install(browser=driver.chrome)
+import pyderman
+path = pyderman.install(browser=pyderman.chrome)
 
 driver = webdriver.Chrome(path)
 driver.get("http://www.python.org")
