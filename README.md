@@ -47,11 +47,26 @@ assert "Python" in driver.title
 
 Yes, this worked for me... But I think we can do better.
 
+
+<! --
 # With thallium
 
 ```python
 from thallium import WebDriver
+
+class WebDriver:
+    def __init__(self):
+
+driver.get("http://www.python.org")
+assert "Python" in driver.title
+
+
 driver = WebDriver('chrome')
 driver.get("http://www.python.org")
 assert "Python" in driver.title
 ```
+
+
+https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/__init__.py
+
+-->
